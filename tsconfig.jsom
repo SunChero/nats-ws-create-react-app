@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "lib/",
+    "moduleResolution": "node",
+    "lib": [
+      "ESNext.AsyncIterable",
+      "es2015.promise", 
+      "es2015",
+      "DOM"
+    ],
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": [
+    "wst"
+  ],
+  "exclude": [
+    "src/**/*",
+    "test/**/*",
+    "lib/**/*"
+  ]
+}
